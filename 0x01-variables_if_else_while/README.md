@@ -9,3 +9,4 @@ The 7-print_tebahpla.c program  prints the lowercase alphabet in reverse, follow
 The 8-print_base16.c program prints all the numbers of base 16 in lowercase, followed by a new line.
 The 9-print_comb.c program prints all possible combinations of single-digit numbers in ascending order
 The 100-print_comb3.c program that prints all possible different combinations of two digits in ascending order
+The 101-print_comb4.c program prints all possible different combinations of three digits in ascending order
