@@ -6,3 +6,4 @@ The 4-isalpha.c program creates a function that function that checks for alphabe
 The 5-sign.c program  prints the sign of a number.
 The 6-abs.c program creates a function that computes the absolute value of an integer.
 The 7-print_last_digit.c program creates a function that prints the last digit of a number.
+The 8-24_hours.c creates a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
