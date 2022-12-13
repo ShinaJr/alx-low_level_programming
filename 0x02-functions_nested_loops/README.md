@@ -11,3 +11,4 @@ The 9-times_table.c program creates a function that prints the 9 times table, st
 The program 10-add.c creates a function that adds two integers and returns the result
 The 11-print_to_98.c program prints all natural numbers from n to 98, followed by a new line.
 The 100-times_table.c program prints the n times table, starting with 0.
+The program 101-natural.c computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
