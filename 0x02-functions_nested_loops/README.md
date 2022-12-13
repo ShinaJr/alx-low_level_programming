@@ -5,3 +5,4 @@ The 3-islower.c program creates a function theat checks for lowercase letters an
 The 4-isalpha.c program creates a function that function that checks for alphabetic character and returns 1 if it's a letter whether uppercase or lowercase and 0 if otherwise
 The 5-sign.c program  prints the sign of a number.
 The 6-abs.c program creates a function that computes the absolute value of an integer.
+The 7-print_last_digit.c program creates a function that prints the last digit of a number.
