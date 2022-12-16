@@ -10,3 +10,4 @@ The 2-mul.c program writes a function that multiplies two integers.
 9-fizz_buzz.c program writes a function that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 10-print_triangle.c program writes a function that prints a triangle, followed by a new line.
 100-prime_factor.c program writes a function hat finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+ program writes a function that prints an integer.
