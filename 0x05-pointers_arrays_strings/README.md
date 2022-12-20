@@ -3,4 +3,4 @@ The 1-swap.c program writes a function that swaps the values of two integers.
 The 2-strlen.c program writes a function that returns the length of a string.
 The 3-puts.c program writes a function that prints a string, followed by a new line, to stdout.
 The 4-print_rev.c program writes a function that prints a string, in reverse, followed by a new line.
-
+The 5-rev_string.c program writes a function that reverses a string.
