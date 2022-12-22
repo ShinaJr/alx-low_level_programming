@@ -10,3 +10,4 @@ The 104-print_buffer.c program writes a function that prints a buffer.
 The 103-infinite_add.c program writes a function that adds two numbers.  
 The 102-magic.c program prints a[2] = 98, followed by a new line.
 The 101-print_number.c program writes a function that prints an integer.
+The 100-rot13.c program writes a function that encodes a string using rot13.
