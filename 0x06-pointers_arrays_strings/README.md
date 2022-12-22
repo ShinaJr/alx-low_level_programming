@@ -8,3 +8,4 @@ The 6-cap_string.c program writes a function that capitalizes all words of a str
 The 7-leet.c program writes  a function that encodes a string into 1337.
 The 104-print_buffer.c program writes a function that prints a buffer.
 The 103-infinite_add.c program writes a function that adds two numbers.  
+The 102-magic.c program prints a[2] = 98, followed by a new line.
