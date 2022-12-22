@@ -6,3 +6,4 @@ The 4-rev_array.c program writes a function that reverses the content of an arra
 The 5-string_toupper.c program writes a function that changes all lowercase letters of a string to uppercase.
 The 6-cap_string.c program writes a function that capitalizes all words of a string.
 The 7-leet.c program writes  a function that encodes a string into 1337.
+The 104-print_buffer.c program writes a function that prints a buffer.
