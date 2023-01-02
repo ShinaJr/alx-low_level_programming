@@ -5,3 +5,4 @@ The 3-strspn.c program writes a function that gets the length of a prefix substr
 The 4-strpbrk.c program writes a function that searches a string for any of a set of bytes.
 The 5-strstr.c program writes a function that locates a substring.
 The 7-print_chessboard.c program writes a function that prints the chessboard.
+The 8-print_diagsums.c program writes a function that  prints the sum of the two diagonals of a square matrix of integers.
