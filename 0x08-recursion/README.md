@@ -6,3 +6,4 @@ The 2-strlen_recursion.c program writes a function that returns the length of a 
 The 3-factorial.c program writes a function that returns the factorial of a given number.
 The 4-pow_recursion.c program writes a function that returns the value of x raised to the power of y.
 The 5-sqrt_recursion.c program writes a function that returns the natural square root of a number.
+The 6-is_prime_number.c program writes a function that returns 1 if the input integer is a prime number, otherwise return 0.
