@@ -1,44 +1,46 @@
 #include "main.h"
 /**
- * is_palindrome - check if a string is a palindrome
- * @s: char array string
- * Return: 1 if palindrome, 0 if not
+ * is_prime_number - determine if a number is a prime number
+ * @n: int number
+ * Return: 1 if prime, 0 otherwise
  */
-int is_palindrome(char *s)
+int is_prime_number(int n)
 {
-	int length;
-	length = get_length(s) - 1;
-	return (my_pal(s, --length));
+	if (n < 2)
+		return (0);
+	if (n < 4)
+		return (1);
+	return (hai(n, 2));
 }
-
 /**
- * get_length - gets length of string
- * @s: string
- * Return: return length of string
+ * _sqrt - return square root of number
+ * @x: number
+ * @i: number incrementer acting as divisor
+ * Return: square root of `x`
  */
-int get_length(char *s)
+int _sqrt(int x, int i)
 {
-	if (*s == '\0')
+	int square;
+
+	square = i * i;
+	if (square >= x)
+		return (i);
+	else
+		return (_sqrt(x, i + 1));
+
+}
+/**
+ * hai - helper function, recursive steps taken
+ * @n: number given to original function is_prime_number
+ * @d: incrementer divisor
+ * Return: 0 if not prime, 1 if prime
+ */
+int hai(int n, int d)
+{
+	if (n % d == 0)
+		return (0);
+	else if (_sqrt(n, 1) < d)
 		return (1);
 	else
-		return (1 + get_length(++s));
-}
-
-/**
- * my_pal - recursive check of palindrome
- * @s: string
- * @l: length of string
- * Return: 1 if palindrome, 0 if not
- */
-int my_pal(char *s, int l)
-{
-	if (*s == *(s + l))
-	{
-		if (l <= 0)
-			return (1);
-		else
-			return (my_pal(++s, l - 2));
-	}
-	else
-		return (0);
+		return (hai(n, d + 1));
 }
