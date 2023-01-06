@@ -3,3 +3,4 @@ The 1-args.c program prints the number of arguments passed into it.
 The 2-args.c program prints all arguments it receives.
 The 3-mul.c program multiplies two numbers.
 The 4-add.c program adds positive numbers.
+The 100-change.c program prints the minimum number of coins to make change for an amount of money.
