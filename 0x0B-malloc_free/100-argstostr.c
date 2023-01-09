@@ -38,6 +38,5 @@ char *argstostr(int ac, char **av)
 		strDup[k++] = '\n';
 	}
 	strDup[k] = '\0';
-	
-	return (strDup);
+return (strDup);
 }	
